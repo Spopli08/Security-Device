@@ -33,4 +33,26 @@ $ pip install coverage
 $ git clone https://github.com/Spopli08/Security-Device.git
 ```
 
-2. Run the unittests located in SD2.py:
+2. Run the unit tests located in SD2.py:
+```
+$ python3 -m coverage run -m unittest
+```
+3. To view the coverage report:
+```
+$ python3 -m coverage report
+```
+4. To run the exxecuatble:
+For the first part of the project, run `security_device.py`, the Security Device simulator:
+```
+$ python3 SD.py
+```
+The unlock code is "883371", while the locking code is "883374".
+To properly run the code one needs to press enter after each correct value. All the numbers except 0...9 and strings are discarded.
+
+The second part can berun by:
+```
+$ python3 SD2.py
+```
+
+
+
