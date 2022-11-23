@@ -44,7 +44,7 @@ $ python3 -m coverage report
 4. To run the exxecuatble:
 For the first part of the project, run `security_device.py`, the Security Device simulator:
 ```
-$ python3 SD.py
+$ python3 main.py
 ```
 The unlock code is "883371", while the locking code is "883374".
 To properly run the code one needs to press enter after each correct value. All the numbers except 0...9 and strings are discarded.
