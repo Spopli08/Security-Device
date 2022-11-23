@@ -54,5 +54,8 @@ The second part can berun by:
 $ python3 SD2.py
 ```
 
-
+## Author
+Sanchit Popli
+## Contact
+spopli@hawk.iit.edu
 
